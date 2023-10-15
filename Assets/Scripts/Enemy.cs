@@ -9,6 +9,5 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         transform.Translate(0, 0, Time.deltaTime * _speed);
-
     }
 }
