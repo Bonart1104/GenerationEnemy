@@ -5,7 +5,6 @@ public class EnemySlime : MonoBehaviour
     [SerializeField] private float _speed;
     [SerializeField] private Transform _target;
 
-
     private void Start()
     {
         _target = GameObject.Find("TargetCube").GetComponent<Transform>();
