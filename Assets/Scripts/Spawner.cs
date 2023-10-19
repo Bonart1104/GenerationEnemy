@@ -1,9 +1,9 @@
 using System.Collections;
 using UnityEngine;
 
-public class Spawn : MonoBehaviour
+public class Spawner : MonoBehaviour
 {
-    [SerializeField] private Enemy _enemy;
+    [SerializeField] private GameObject _enemy;
     [SerializeField] private Transform _spawnPoint;
     [SerializeField] private int _spawningTime;
 
